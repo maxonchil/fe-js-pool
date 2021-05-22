@@ -1,1 +1,1 @@
-# fe-js-pool
+# FE-js-pool
