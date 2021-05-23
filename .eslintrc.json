@@ -4,15 +4,17 @@
     },
     "plugins": [
         "@typescript-eslint",
-        "prettier"
+        "prettier",
+        "css-modules"
     ],
     "extends": [
         "prettier",
         "eslint:recommended",
         "plugin:import/typescript",
         "plugin:prettier/recommended",
+        "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:css-modules/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "rules": {
