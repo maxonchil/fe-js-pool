@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "removeComments": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "pretty": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src",
+  ],
+  "exclude": [
+    "node_modules",
+    "src/**/*.spec.ts",
+    "./**/**.**.ts"
+  ]
+}
